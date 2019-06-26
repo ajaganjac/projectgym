@@ -1,0 +1,77 @@
+body{
+
+	font-family: 'Monda', sans-serif;
+
+}
+
+header.masthead {
+    text-align: center;
+    padding-top: 10%;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+#action a{
+	color: red;
+	
+}
+
+#message {
+
+	background-color: red;
+	margin-top: 35px;
+	height: 60vh;
+	text-align: center;
+    padding-top: 10%;
+    color: #fff;
+    background-image: url(healthy.jpeg);
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#message2 {
+
+	background-color: red;
+	margin-top: 35px;
+	height: 80vh;
+	text-align: center;
+    padding-top: 10%;
+    color: #fff;
+    background-image: url(gym.jpeg);
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-default.scrolled{
+  background:#000;
+}
+
+/* mobile friendly ontwerp */
+
+/* (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .col-6{
+        width: 100%;
+        margin-top: 25px;
+    }
+} 
+
+/* (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .col-6{
+        width: 100%;
+        margin-top: 25px;
+    }
+} 
